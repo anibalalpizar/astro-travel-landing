@@ -18,10 +18,12 @@ import Selling from "../components/Selling.astro"
       rel="stylesheet"
     />
   </head>
-  <body class="font-['Poppins']">
-    <Navbar />
-    <Header />
-    <Category />
-    <Selling />
+  <body class="font-['Poppins'] min-w-full bg-white overflow-x-hidden">
+    <div class="flex flex-col min-h-screen w-full">
+      <Navbar />
+      <Header />
+      <Category />
+      <Selling />
+    </div>
   </body>
 </html>
